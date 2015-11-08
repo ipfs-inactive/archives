@@ -1,6 +1,6 @@
 # IPFS Archives
 
-One of the fundamental goals of IPFS is to improve humanity's archival of the public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, etc.
+One of the fundamental goals of IPFS is to improve humanity's archival of the public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, wikipedia, etc.
 
 This repo helps us organize efforts. [See the efforts here](https://github.com/ipfs/archives/issues).
 
@@ -8,16 +8,17 @@ This repo helps us organize efforts. [See the efforts here](https://github.com/i
 
 #### IPFS improves data storage
 
-- **Chunking:** IPFS employs a clever chunking strategy: by default it uses Rabin Fingerprint chunking, a content-driven chunking algorithm that optimizes for finding duplicate data blocks. Chunking is also modular, so users can chunk data in whatever way is most useful to them. (we may employ diff-chunking in the future)
+- **Chunking:** IPFS employs a clever chunking strategy: by default it uses Rabin Fingerprint chunking, a content-driven chunking algorithm that optimizes for finding duplicate data blocks. Chunking is also modular, so users can chunk data in whatever way is most useful to them. (we may employ diff-chunking in the future). This is particularly useful for special chunking of audio and video media.
 - **Deduplication:** the chunking strategy allows IPFS to deduplicate vast amounts of data in large repositories.
-- **Cryptographic Integrity** the integrity of the data is protected and guaranteed by cryptography. Bitrot will be caught and not passed to the
+- **Cryptographic Integrity:** the integrity of the data is protected and guaranteed by cryptography. Bitrot will be caught and not passed to the
 user.
 
 #### IPFS improves distribution
 
-- **Bandwidth Sharing** as a meshing protocol, IPFS can use the bandwidth of replicas (mirrors), or even users currently downloading files, to reduce the bandwidth usage for servers, and improve the speed for end users.
-- **Speed** by sharing bandwidth, and leveraging data locality in the network,IPFS can give blazing fast updates.
-- **Replication** it is easy to replicate an archive: `ipfs daemon --init & ipfs pin add -r <path>`. One needs only to follow the `HEAD` of the archive, and grab the latest value of the museum root. (Today in git, in the future in an IPNS name)
+- **Bandwidth Sharing:** as a meshing protocol, IPFS can use the bandwidth of replicas, which act like seeds in a swarm, NOT traditional HTTP mirrors. These can be dedicated systems, or even users currently viewing the files. This reduces the bandwidth usage for servers, and improves the download bandwidth for end users.
+- **Speed:** IPFS achieves blazing fast speeds and great bandwidth utilization by leveraging immutability, cryptographic integrity checks, and data locality in the network.
+- **Replication:** it is easy to replicate an archive: `ipfs daemon --init & ipfs pin add -r <path>`. One needs only to follow the `HEAD` of the archive (a hash reference), and retrieve the latest additions to an archive. (Today in git, in the future in an IPNS name).
+- **Collaboration:** the distribution model makes it extremely easy (one command) to replicate an archive for safe-keeping, and contribute bandwidth to the effort of serving it to others.
 
 ## Current Projects
 

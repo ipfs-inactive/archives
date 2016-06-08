@@ -1,3 +1,5 @@
+![](https://ipfs.io/ipfs/QmbD39Nn6wUkf7HJucDMgZcSG1qd7RkvJrKM8a7iicR7Xq/ipfs-archives.png)
+
 # IPFS Archives
 
 One of the fundamental goals of IPFS is to improve humanity's archival of the public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, wikipedia, etc.
@@ -27,5 +29,11 @@ Current archival efforts are being coordinated via [issues](https://github.com/i
 Feel free to suggest other open-access archives by opening a new issue. [However, please ensure that data is under an appropriate license (such as Creative Commons), or you have obtained proper permission, before copying it to IPFS.] 
 
 Some suggestions for possible future archival efforts can be found [here](https://github.com/ipfs/archives/wiki/Suggestions).
+
+
+## Examples
+
+- Arxiv.org CC-By Papers: https://ipfs.io/ipfs/QmfXH9XtP7xmoTH8WAp4HNSduqWMwLTH8B8TvbTkdgzNAa/
+
 
 (TODO finish README)

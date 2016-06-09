@@ -2,7 +2,7 @@
 
 # IPFS Archives
 
-One of the fundamental goals of IPFS is to improve humanity's archival of the public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, wikipedia, etc.
+One of the fundamental goals of IPFS is to improve archival storage of humanity's public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, wikipedia, etc.
 
 This repo helps us organize efforts. [See the efforts here](https://github.com/ipfs/archives/issues).
 

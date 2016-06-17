@@ -1,10 +1,29 @@
-![](https://ipfs.io/ipfs/QmbD39Nn6wUkf7HJucDMgZcSG1qd7RkvJrKM8a7iicR7Xq/ipfs-archives.png)
-
 # IPFS Archives
+
+![banner](https://ipfs.io/ipfs/QmbD39Nn6wUkf7HJucDMgZcSG1qd7RkvJrKM8a7iicR7Xq/ipfs-archives.png)
+
+[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
+[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
+[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+[![](https://img.shields.io/badge/discussion_repo-go_to_issues-brightgreen.svg?style=flat-square)](https://github.com/ipfs/archives/issues)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+> Repo to coordinate archival efforts with IPFS
 
 One of the fundamental goals of IPFS is to improve archival storage of humanity's public record. This is a critically important endeavor. In particular, our highest priority is research artifacts -- scientific publications, data repositories, wikipedia, etc.
 
-This repo helps us organize efforts. [See the efforts here](https://github.com/ipfs/archives/issues).
+This repo helps us organize efforts. [See the efforts in the issues](https://github.com/ipfs/archives/issues).
+
+## Table of Contents
+
+- [Improving on the status quo of Archival](#improving-on-the-status-quo-of-archival)
+    - [IPFS improves data storage](#ipfs-improves-data-storage)
+    - [IPFS improves distribution](#ipfs-improves-distribution)
+- [Current Projects](#current-projects)
+- [Examples](#examples)
+- [Contribute](#contribute)
+  - [Want to hack on IPFS?](#want-to-hack-on-ipfs)
+- [License](#license)
 
 ## Improving on the status quo of Archival
 
@@ -37,3 +56,16 @@ Some suggestions for possible future archival efforts can be found [here](https:
 
 
 (TODO finish README)
+
+
+## Contribute
+
+Feel free to join in. All welcome.
+
+### Want to hack on IPFS?
+
+[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/contributing.md)
+
+## License
+
+MIT

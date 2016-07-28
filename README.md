@@ -49,7 +49,6 @@ Feel free to suggest other open-access archives by opening a new issue. [However
 
 Some suggestions for possible future archival efforts can be found [here](https://github.com/ipfs/archives/wiki/Suggestions).
 
-
 ## Examples
 
 - Arxiv.org CC-By Papers: https://ipfs.io/ipfs/QmfXH9XtP7xmoTH8WAp4HNSduqWMwLTH8B8TvbTkdgzNAa/
@@ -60,7 +59,7 @@ Some suggestions for possible future archival efforts can be found [here](https:
 
 ## Contribute
 
-Feel free to join in. All welcome.
+Feel free to join in! Look at the existing discussions [in the issues](https://github.com/ipfs/archives/issues), or [open an issue](https://github.com/ipfs/archives/issues/new) if you want to talk about something new. All welcome.
 
 ### Want to hack on IPFS?
 
@@ -68,4 +67,4 @@ Feel free to join in. All welcome.
 
 ## License
 
-MIT
+[CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/us/) Protocol Labs

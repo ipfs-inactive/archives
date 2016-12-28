@@ -1,12 +1,12 @@
-# IPFS Archives
+# IPFS Archives (archives)
 
 ![banner](https://ipfs.io/ipfs/QmbD39Nn6wUkf7HJucDMgZcSG1qd7RkvJrKM8a7iicR7Xq/ipfs-archives.png)
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.io/)
+[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](https://webchat.freenode.net/?channels=%23ipfs)
 [![](https://img.shields.io/badge/discussion_repo-go_to_issues-brightgreen.svg?style=flat-square)](https://github.com/ipfs/archives/issues)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > Repo to coordinate archival efforts with IPFS
 
@@ -56,6 +56,11 @@ Some suggestions for possible future archival efforts can be found [here](https:
 
 (TODO finish README)
 
+## Maintainers
+
+Captain: [@flyingzumwalt](https://github.com/flyingzumwalt)
+
+If you're interested in captaining this repo, open an issue!
 
 ## Contribute
 
@@ -67,4 +72,4 @@ Feel free to join in! Look at the existing discussions [in the issues](https://g
 
 ## License
 
-[CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/us/) Protocol Labs
+[CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/us/) © 2016 Protocol Labs Inc.

@@ -1,0 +1,38 @@
+{
+"name": "scholarpedia.org",
+"description": "The peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.",
+"maintainers": [ {"rht": {"email": "rhtbot@gmail.com", "keybase": "rht", "github": "rht"}} ],
+"hash":"QmS51mwEeVuwujVsvPmXp1gbTAUFGGH1eA67u2H1QdMi6G",
+"last-synced": "2015-11-02",
+"type": "web",
+"keywords": ["MediaWiki", "wiki", "wikiteam", "scholarpedia", "scholarpedia.org", "scholarpediaorg", "science", "encyclopedia", "curated", "peer-review"],
+"language": "en_US",
+"url": "http://www.scholarpedia.org",
+"gh-issue": "https://github.com/ipfs/archives/issues/32",
+"buildScript": "
+wget -r -L 1 -np https://archive.org/download/wiki-scholarpediaorg-20151102 &&
+cd archive.org/download/wiki-scholarpediaorg-20151102 &&
+ipfs add -rn --silent . | awk '{ print $2 }' &&
+cd - &&
+rm -r archive.org
+",
+"size": "1 GB",
+"resources": {
+  "wiki-scholarpediaorg-20151102" : {
+    "index.html": {"link": {"/": "/ipfs/QmRRGk9CKUriHvAWphBpGheN6xJt1D99f7Jf2EtRyjahRr"}},
+    "logo.png": {"link": {"/": "/ipfs/QmVTvHWETuNaF6fzkKicDA2FZJFXb4pynR6sEQ5argEfGp"}},
+    "logo_thumb.jpg": {"link": {"/": "/ipfs/QmUA7q32SqLJm6GDgvNyR5F3egkquEKCTubVvYhQp9P1Gs"}},
+    "scholarpediaorg_w-20151102-current.7z": {"link": {"/": "/ipfs/QmPE7VbNBbCeUnuFTej5vPhwRmyYPZoznLcSfuqFCbjy6i"}},
+    "scholarpediaorg_w-20151102-images.7z": {"link": {"/": "/ipfs/QmcgYB4eaLMLzqsmaT1x8aLczi4u8F2yuXAiTeFBnJLUBT"}},
+    "scholarpediaorg-20151102.rhash.txt": {"link": {"/": "/ipfs/QmVQGu4eJNGZR62AuQAQ42YoumcR96YzdudsAYBnSieepX"}},
+    "wiki-scholarpediaorg-20151102_archive.torrent": {"link": {"/": "/ipfs/QmTpKxJEz9AbmrMEJ6zxYPDiUoenhSrHMV6tEa6bvgAMCF"}},
+    "wiki-scholarpediaorg-20151102_files.xml": {"link": {"/": "/ipfs/Qma73tA7MHXzJMgJaS8arpxAeMAx7v4gZ1bxyz3NhnSm2T"}},
+    "wiki-scholarpediaorg-20151102_meta.sqlite": {"link": {"/": "/ipfs/QmWYEfRqxVn7y4skmNqkuYyXrSh8FHAq5rJ9eReLctjT7S"}},
+    "wiki-scholarpediaorg-20151102_meta.xml": {"link": {"/": "/ipfs/QmRJRuJNhLv5tPU6hWZW4irgy78MMxKr5pQY2PjSYYH6ox"}}
+  }
+},
+"license": {
+  "type": "CC-BY-NC-SA-3.0",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+}
+}

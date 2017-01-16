@@ -1,0 +1,18 @@
+{
+"name": "IETF RFC",
+"description": "Memos in the Requests for Comments (RFC) document series contain technical and organizational notes about the Internet.",
+"hash": "QmYWnD37rP1TK8EctGJjw9P9eZNnNKjFcB4qotTiQKNhUN"
+"last-synced": "2017-1-16",
+"type": "data",
+"url": "https://www.ietf.org/rfc.html",
+"buildScript": "
+rsync -Pav --delete -f '+ /rfc-index.txt' -f '+ /rfc[0-9]*' -f '- *' ftp.rfc-editor.org::rfcs/ rfcs/ &&
+ipfs add -r rfcs > manifest
+",
+"size": "500 MB",
+"resources": "manifest",
+"license": {
+  "type": "IETF-Trust-Copyright-not-in-spdx",
+  "url": "https://tools.ietf.org/html/rfc5378"
+}
+}

@@ -1,1 +1,1 @@
-website([website: 'archives.ipfs.io', record: '_.dnslink'])
+website([website: 'archives.ipfs.io', record: '_dnslink'])

@@ -85,7 +85,7 @@ Feel free to join in! Look at the existing discussions [in the issues](https://g
 
 ### Want to hack on IPFS?
 
-[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/contributing.md)
+[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md)
 
 ## License
 

@@ -23,7 +23,7 @@ And then retrieve the Pack Root and the multiaddr for the node you just started.
 
 ## Step 1: Use ipfs-pack to serve your datasets
 
-Follow the instructions in [the ipfs-pack tutorial](https://github.com/ipfs/ipfs-pack/blob/master/tutorial/README.md), which covers installing ipfs-pack, initializing a pack, and serving the contents of your pack on the IPFS network.
+Follow the instructions in [the ipfs-pack tutorial](https://github.com/ipfs/ipfs-pack/blob/master/README.md), which covers installing ipfs-pack, initializing a pack, and serving the contents of your pack on the IPFS network.
 
 ## Step 2: Get the multiaddr of your node
 

@@ -1,0 +1,21 @@
+{
+"name": "cdnjs",
+"description": ":earth_africa: The best FOSS web front-end resource CDN https://cdnjs.com",
+"hash": "QmZJKsLpebYqHApRLeoLhj2NsXZ2JoXqhSWkxafxaBXYu7",
+"last-synced": "2017-1-11",
+"type": "git",
+"url": "https://github.com/cdnjs/cdnjs",
+"gh-issue": "https://github.com/ipfs/archives/issues/35"
+"buildScript": "
+git clone https://github.com/cdnjs/cdnjs.git &&
+cd cdnjs &&
+gx init &&
+gx publish
+",
+"size": "17 GB",
+"resources": "TODO",
+"license": {
+  "type": "MIT",
+  "url": "https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE"
+}
+}
